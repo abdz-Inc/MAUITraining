@@ -32,8 +32,8 @@ namespace MAUITraining
             get => phonenumber; 
             set
             {
-                name = value;
-                if (name == string.Empty)
+                phonenumber = value;
+                if (phonenumber == string.Empty)
                 {
                     throw new ArgumentException("Phonenumber cannot be Empty");
                 }
