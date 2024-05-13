@@ -22,21 +22,23 @@ namespace MAUITraining
         public string Name { 
             get => name; 
             set {
-                name = value;
+                
                 if (name == string.Empty){
                     throw new ArgumentException("Name cannot be Empty");
                 }
+                name = value;
             } }
         public string Phonenumber
         {
             get => phonenumber; 
             set
             {
-                phonenumber = value;
+                
                 if (phonenumber == string.Empty)
                 {
                     throw new ArgumentException("Phonenumber cannot be Empty");
                 }
+                phonenumber = value;
             }
         }
 
